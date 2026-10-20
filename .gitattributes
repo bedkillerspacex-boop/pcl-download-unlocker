@@ -1,7 +1,9 @@
-# bat 必须是 CRLF，否则部分 Windows 环境下批处理解析会出问题
-*.bat  text eol=crlf
-*.cmd  text eol=crlf
-*.ps1  text eol=crlf
+# bat 必须以 CRLF 字节形式存储：
+# 网页上直接 Raw 下载得到的若为 LF，cmd.exe 会把长行切碎，脚本直接跑不起来。
+# 用 -text 关闭换行符转换，保证仓库里的字节和本地文件完全一致。
+*.bat  -text
+*.cmd  -text
 
+*.ps1  text eol=crlf
 *.md   text eol=lf
 *.txt  text eol=lf
