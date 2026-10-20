@@ -28,7 +28,7 @@
 
 ## 使用方法
 
-下载 [`PCL一键补丁.bat`](./PCL一键补丁.bat)，随便放到哪里（桌面就行）。
+**下载**：[`PCL一键补丁.bat`](./PCL一键补丁.bat) —— 或者从 [Releases](https://github.com/bedkillerspacex-boop/pcl-download-unlocker/releases/latest) 下载 `PCL-Patcher-vX.Y.Z.bat`，两个文件内容一样。随便放到哪里（桌面就行）。
 
 | 场景 | 操作 |
 | --- | --- |
