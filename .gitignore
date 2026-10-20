@@ -1,0 +1,9 @@
+# 备份文件（体积很大，不要提交）
+*.bak_*
+
+# 本地环境
+.workbuddy-ai/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
